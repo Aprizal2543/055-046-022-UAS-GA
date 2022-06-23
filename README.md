@@ -1,12 +1,4 @@
-# 055-046-022-UAS-GA
-1911500055 Aprizal
-1911500046 Firman Maulana
-1911500022 Bangka Sujawanto
-UAS GA
 
 
-https://drive.google.com/file/d/1AzEfrnKXSIbRv5rrp8pEkgexeio2rrVs/view?usp=sharing
-
-
-
+https://user-images.githubusercontent.com/95749829/175242943-73ee4b8a-1d71-495a-8eb8-1047b3a46e90.mp4
 
