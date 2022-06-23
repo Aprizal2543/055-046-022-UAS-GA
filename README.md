@@ -1,0 +1,5 @@
+# 055-046-022-UAS-GA
+1911500001 Aprizal	
+1911500008 Firman Maulana
+1911500043 Bangka Sujawanto
+UAS GA
