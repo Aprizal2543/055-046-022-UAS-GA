@@ -26,14 +26,14 @@
     <div id="wrapper">
 
         <!-- Sidebar -->
-        <ul class="navbar-nav bg-gradient-danger sidebar sidebar-dark accordion" id="accordionSidebar">
+        <ul class="navbar-nav bg-gradient-dark sidebar sidebar-dark accordion"  id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
                 <div class="sidebar-brand-icon rotate-n-15">
-                    <i class="fas fa-ambulance"></i>
+                    </i>
                 </div>
-                <div class="sidebar-brand-text mx-3">Pelaporan Kebakaran</div>
+                <div class="sidebar-brand-text mx-3"><h3>LAPORKUY</h3></div>
             </a>
 
             <!-- Divider -->
@@ -43,7 +43,7 @@
             <li class="nav-item active bg-primary">
                 <a class="nav-link" href="index.php">
                     <i class="fas fa-cog"></i>
-                    <span>Dashboard</span></a>
+                    <span>MENU</span></a>
             </li>
 
             <!-- Divider -->
@@ -91,9 +91,9 @@
                 <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
 
                     <!-- Sidebar Toggle (Topbar) -->
-                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                    <!-- <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
                         <i class="fa fa-bars"></i>
-                    </button>
+                    </button> -->
 
                     <!-- Topbar Search -->
                     <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
@@ -280,7 +280,7 @@
 
 
                     <div class="col-lg-12">
-                        <h2 class="font-weight-bold">Daftar Pelaporan Kebakaran</h2>
+                        <h2 class="font-weight-bold">Data Masuk</h2>
                         <a href="" class="btn btn-warning">Refresh</a>
                         <a href="tambah_laporan.php" class="btn btn-success">Tambah Pelaporan</a><br><br>
                         <table class="table">
@@ -291,7 +291,7 @@
                                 <th>Latitude</th>
                                 <th>Longitude</th>
                                 <th>Sudah Verifikasi?</th>
-                                <th>Foto Bukti</th>
+                                <!--<th>Foto Bukti</th> -->
                                 <th>Action</th>
                                 <th></th>
                                 <th></th>
@@ -318,7 +318,8 @@
                                                 echo "Belum";
                                             } ?>
                                         </td>
-                                        <td><a target="_blank" href="../upload/<?php echo $result['file_gambar']; ?>"><img width="200px" height="180px" src="../upload/<?php echo $result['file_gambar']; ?>"></a></td>
+                                        <!--
+                                        <td><a target="_blank" href="../upload/<?php echo $result['file_gambar']; ?>"><img width="200px" height="180px" src="../upload/<?php echo $result['file_gambar']; ?>"></a></td> -->
                                         <form action="action.php?id=<?php echo $result['id']; ?>" method="post">
                                             <td><input name="verifikasi" class="btn btn-success" type="submit" value="Verifikasi" onclick="if (!confirm('Konfirmasi Verifikasi?')) { return false; }"></td>
                                             <td><input name=" ubah" class="btn btn-warning" type="submit" value="Ubah"></td>
@@ -344,8 +345,8 @@
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; UAS GIS TI6J 2022</span><br><br>
-                        <p>1911500001, 1911500008, 1911500043, 1911500052, 1911500146</p>
+                        <span>Copyright &copy; GIS</span><br><br>
+                        <p></p>
                     </div>
                 </div>
             </footer>
